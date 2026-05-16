@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #f5f5f5;
+    --accent-color: #ff9900;
+    --text-color: #1f1f1f;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--white);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header,
+main,
+footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.site-purpose {
+    display: block;
+    font-size: 0.9rem;
+}
+
+#menu {
+    border: 0;
+}
