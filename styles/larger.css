@@ -1,5 +1,7 @@
 @media only screen and (min-width: 768px) {
 
+    /* ---------- HEADER ---------- */
+
     header {
         display: flex;
         justify-content: space-between;
@@ -20,16 +22,45 @@
         margin: 0;
     }
 
+    .navigation a {
+        border: none;
+    }
+
+    /* ---------- HOME GRID ---------- */
+
     .home-grid {
         grid-template-columns: 2fr 1fr 1fr;
     }
+
+    /* ---------- SPOTLIGHTS ---------- */
 
     .spotlights {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    /* ---------- DIRECTORY GRID ---------- */
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* ---------- DIRECTORY LIST ---------- */
+
+    .list section {
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+        align-items: center;
+    }
+
+    /* ---------- FOOTER ---------- */
+
     footer {
         display: flex;
         justify-content: space-between;
     }
+
+    .footer-left,
+    .footer-right {
+        margin-bottom: 0;
+    }
+
 }

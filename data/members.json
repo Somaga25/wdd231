@@ -1,0 +1,68 @@
+{
+    "members": [
+
+        {
+            "name": "ABC Ventures",
+            "address": "12 Wetheral Road, Owerri",
+            "phone": "+234 800 123 4567",
+            "website": "https://ABCventures.com",
+            "image": "business1.webp",
+            "membership": 3
+        },
+
+        {
+            "name": "Owerri Tech Hub",
+            "address": "45 Douglas Road, Owerri",
+            "phone": "+234 800 765 4321",
+            "website": "https://owerri-techhub.com",
+            "image": "business2.webp",
+            "membership": 2
+        },
+
+        {
+            "name": "Imo Traders Ltd",
+            "address": "23 MCC Road, Owerri",
+            "phone": "+234 809 998 8776",
+            "website": "https://imotraders.com",
+            "image": "business3.webp",
+            "membership": 1
+        },
+
+        {
+            "name": "Royal Bakers",
+            "address": "10 Tetlow Road, Owerri",
+            "phone": "+234 801 456 2211",
+            "website": "https://royalbakers.com",
+            "image": "business4.webp",
+            "membership": 2
+        },
+
+        {
+            "name": "Eastern Logistics",
+            "address": "7 Warehouse Avenue, Owerri",
+            "phone": "+234 802 667 9912",
+            "website": "https://easternlogistics.com",
+            "image": "business5.webp",
+            "membership": 3
+        },
+
+        {
+            "name": "City Medical Center",
+            "address": "20 Relief Market Road, Owerri",
+            "phone": "+234 803 112 8844",
+            "website": "https://citymedicalcenter.com",
+            "image": "business6.webp",
+            "membership": 1
+        },
+
+        {
+            "name": "Prime Fashion House",
+            "address": "55 Ikenegbu Layout, Owerri",
+            "phone": "+234 805 778 1122",
+            "website": "https://primefashionhouse.com",
+            "image": "business7.webp",
+            "membership": 2
+        }
+
+    ]
+}
