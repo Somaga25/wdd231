@@ -27,16 +27,33 @@
         padding: 0.75rem 1rem;
     }
 
-    /* ---------- HOME GRID ---------- */
+    /* ---------- HERO ---------- */
+
+    .cta-button {
+        font-size: 1.1rem;
+    }
+
+    /* ---------- HOME PAGE ---------- */
 
     .home-grid {
         grid-template-columns: 2fr 1fr 1fr;
+        align-items: stretch;
+    }
+
+    .card {
+        height: 100%;
     }
 
     /* ---------- SPOTLIGHTS ---------- */
 
     #spotlight-container {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .spotlight-card {
+        height: 100%;
     }
 
     /* ---------- DIRECTORY GRID ---------- */
@@ -45,11 +62,16 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .grid section {
+        height: 100%;
+    }
+
     /* ---------- DIRECTORY LIST ---------- */
 
     .list section {
         grid-template-columns: 2fr 2fr 1fr 1fr;
         align-items: center;
+        gap: 1rem;
     }
 
     /* ---------- FOOTER ---------- */
@@ -57,11 +79,13 @@
     footer {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
     }
 
     .footer-left,
     .footer-right {
         margin-bottom: 0;
+        width: 48%;
     }
 
 }

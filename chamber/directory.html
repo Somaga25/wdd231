@@ -10,11 +10,15 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Business Directory | Owerri Chamber of Commerce</title>
+    <title>
+        Business Directory | Owerri Chamber of Commerce
+    </title>
+
+    <!-- META -->
 
     <meta
         name="description"
-        content="Directory page for the Owerri Chamber of Commerce featuring local businesses and organizations."
+        content="Browse businesses and organizations that belong to the Owerri Chamber of Commerce and support economic development in Owerri, Imo State."
     >
 
     <meta
@@ -22,13 +26,8 @@
         content="Chisomaga Chiwuikem Eke"
     >
 
-    <!-- Favicon -->
-    <link
-        rel="icon"
-        href="favicon.ico"
-    >
+    <!-- OPEN GRAPH META -->
 
-    <!-- Open Graph Meta -->
     <meta
         property="og:title"
         content="Owerri Chamber of Commerce Business Directory"
@@ -36,7 +35,7 @@
 
     <meta
         property="og:description"
-        content="Explore businesses and organizations that belong to the Owerri Chamber of Commerce."
+        content="Browse local businesses, organizations, and chamber members supporting economic growth and community development in Owerri."
     >
 
     <meta
@@ -54,7 +53,15 @@
         content="website"
     >
 
-    <!-- Google Fonts -->
+    <!-- FAVICON -->
+
+    <link
+        rel="icon"
+        href="images/favicon.ico"
+    >
+
+    <!-- GOOGLE FONTS -->
+
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
@@ -72,6 +79,7 @@
     >
 
     <!-- CSS -->
+
     <link
         rel="stylesheet"
         href="styles/normalize.css"
@@ -87,7 +95,8 @@
         href="styles/larger.css"
     >
 
-    <!-- JavaScript -->
+    <!-- JAVASCRIPT -->
+
     <script
         src="scripts/navigation.js"
         defer
@@ -106,6 +115,8 @@
 </head>
 
 <body>
+
+    <!-- HEADER -->
 
     <header>
 
@@ -132,15 +143,20 @@
 
         </div>
 
+        <!-- MOBILE MENU -->
+
         <button
             id="menu"
             aria-label="Open Navigation Menu"
             aria-expanded="false"
+            type="button"
         >
             ☰
         </button>
 
-        <nav>
+        <!-- NAVIGATION -->
+
+        <nav aria-label="Primary Navigation">
 
             <ul class="navigation">
 
@@ -177,21 +193,41 @@
 
     </header>
 
+    <!-- MAIN -->
+
     <main>
 
         <h1>Business Directory</h1>
 
+        <section class="visually-hidden">
+
+            <h2>
+                Directory View Controls
+            </h2>
+
+        </section>
+
+        <!-- DIRECTORY VIEW CONTROLS -->
+
         <div class="menu">
 
-            <button id="grid">
-                Grid
+            <button
+                id="grid"
+                type="button"
+            >
+                Grid View
             </button>
 
-            <button id="list">
-                List
+            <button
+                id="list"
+                type="button"
+            >
+                List View
             </button>
 
         </div>
+
+        <!-- MEMBER DIRECTORY -->
 
         <section
             id="members"
@@ -202,9 +238,15 @@
                 Chamber Members
             </h2>
 
+            <p>
+                Loading chamber members...
+            </p>
+
         </section>
 
     </main>
+
+    <!-- FOOTER -->
 
     <footer>
 
@@ -212,13 +254,21 @@
 
             <h2>Contact Information</h2>
 
-            <p>Owerri Chamber of Commerce</p>
+            <p>
+                Owerri Chamber of Commerce
+            </p>
 
-            <p>Owerri, Imo State, Nigeria</p>
+            <p>
+                Owerri, Imo State, Nigeria
+            </p>
 
-            <p>info@owerrichamber.org</p>
+            <p>
+                info@owerrichamber.org
+            </p>
 
-            <p>+234 803 770 1669</p>
+            <p>
+                +234 803 770 1669
+            </p>
 
         </div>
 
