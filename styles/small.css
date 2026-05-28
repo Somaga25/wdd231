@@ -136,7 +136,7 @@ h1 {
 .cta-button {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     background-color: var(--accent-color);
     color: var(--white);
     padding: 0.75rem 1.5rem;
@@ -163,17 +163,55 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: 1rem;
+    min-height: 220px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* ---------- WEATHER ---------- */
+
+.weather figure {
+    margin: 0;
+    text-align: center;
+}
+
+.weather img {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.weather figcaption {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#humidity {
+    margin-top: 0.5rem;
+}
+
+/* ---------- FORECAST ---------- */
+
+.forecast p {
+    margin: 0.5rem 0;
+    font-weight: 500;
 }
 
 /* ---------- SPOTLIGHTS ---------- */
 
 .spotlights {
+    margin-top: 2rem;
+}
+
+#spotlight-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-.business-card {
+.spotlight-card {
     background-color: var(--secondary-color);
     border: 1px solid var(--border-color);
     border-radius: 10px;
@@ -181,17 +219,22 @@ h1 {
     text-align: center;
 }
 
-.business-card img {
+.spotlight-card img {
+    max-width: 150px;
     margin: 0 auto 1rem;
 }
 
-.business-card a {
+.spotlight-card h3 {
+    margin-top: 0;
+}
+
+.spotlight-card a {
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: none;
 }
 
-.business-card a:hover {
+.spotlight-card a:hover {
     color: var(--accent-color);
 }
 
@@ -252,6 +295,10 @@ h1 {
     padding: 1rem;
     border-bottom: 1px solid var(--border-color);
     background-color: var(--secondary-color);
+}
+
+.list section:nth-child(even) {
+    background-color: #eeeeee;
 }
 
 .list section img {

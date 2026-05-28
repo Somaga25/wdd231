@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta
@@ -9,7 +10,11 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Owerri Chamber of Commerce</title>
+    <title>
+        Owerri Chamber of Commerce
+    </title>
+
+    <!-- META -->
 
     <meta
         name="description"
@@ -20,6 +25,8 @@
         name="author"
         content="Chisomaga Chiwuikem Eke"
     >
+
+    <!-- OPEN GRAPH META -->
 
     <meta
         property="og:title"
@@ -33,12 +40,12 @@
 
     <meta
         property="og:image"
-        content="https://somaga25.github.io/wdd231/owerri-chamber/images/hero-large.webp"
+        content="https://somaga25.github.io/wdd231/chamber/images/hero-large.webp"
     >
 
     <meta
         property="og:url"
-        content="https://somaga25.github.io/wdd231/owerri-chamber/"
+        content="https://somaga25.github.io/wdd231/chamber/"
     >
 
     <meta
@@ -46,10 +53,14 @@
         content="Promoting business growth and community development in Owerri."
     >
 
+    <!-- FAVICON -->
+
     <link
         rel="icon"
-        href="images/favicon.svg"
+        href="images/favicon.ico"
     >
+
+    <!-- GOOGLE FONTS -->
 
     <link
         rel="preconnect"
@@ -67,6 +78,8 @@
         rel="stylesheet"
     >
 
+    <!-- CSS -->
+
     <link
         rel="stylesheet"
         href="styles/normalize.css"
@@ -82,6 +95,8 @@
         href="styles/larger.css"
     >
 
+    <!-- JAVASCRIPT -->
+
     <script
         src="scripts/navigation.js"
         defer
@@ -92,9 +107,21 @@
         defer
     ></script>
 
+    <script
+        src="scripts/weather.js"
+        defer
+    ></script>
+
+    <script
+        src="scripts/spotlights.js"
+        defer
+    ></script>
+
 </head>
 
 <body>
+
+    <!-- HEADER -->
 
     <header>
 
@@ -122,6 +149,7 @@
         </div>
 
         <!-- MOBILE NAVIGATION BUTTON -->
+
         <button
             id="menu"
             aria-label="Open navigation menu"
@@ -131,6 +159,7 @@
         </button>
 
         <!-- NAVIGATION -->
+
         <nav aria-label="Primary Navigation">
 
             <ul class="navigation">
@@ -168,9 +197,13 @@
 
     </header>
 
+    <!-- MAIN -->
+
     <main>
 
         <h1>Owerri Chamber of Commerce</h1>
+
+        <!-- HERO SECTION -->
 
         <section class="hero">
 
@@ -204,7 +237,8 @@
 
         </section>
 
-        <!-- COMMUNITY INFORMATION -->
+        <!-- HOME GRID -->
+
         <section class="home-grid">
 
             <h2 class="visually-hidden">
@@ -212,138 +246,76 @@
             </h2>
 
             <!-- EVENTS -->
+
             <section class="card events">
 
-                <h2>Events</h2>
+                <h2>Current Events</h2>
 
                 <p>
-                    The Owerri Business Summit will hold this month featuring local entrepreneurs and investors.
+                    The Owerri Business Summit will hold this month featuring local entrepreneurs, investors, and networking opportunities for business owners across Imo State.
+                </p>
+
+                <p>
+                    Registration is currently open for chamber members and invited guests.
                 </p>
 
             </section>
 
             <!-- CURRENT WEATHER -->
+
             <section class="card weather">
 
                 <h2>Current Weather</h2>
 
-                <p>29°C</p>
+                <p id="current-temp"></p>
 
-                <p>Partly Cloudy</p>
+                <figure>
 
-                <p>Humidity: 72%</p>
+                    <img
+                        id="weather-icon"
+                        src=""
+                        alt=""
+                        loading="lazy"
+                    >
+
+                    <figcaption id="weather-desc"></figcaption>
+
+                </figure>
+
+                <p id="humidity"></p>
 
             </section>
 
             <!-- WEATHER FORECAST -->
+
             <section class="card forecast">
 
-                <h2>Weather Forecast</h2>
+                <h2>3-Day Forecast</h2>
 
-                <p>Tomorrow: 30°C</p>
+                <p id="day1"></p>
 
-                <p>Wednesday: 28°C</p>
+                <p id="day2"></p>
 
-                <p>Thursday: 31°C</p>
+                <p id="day3"></p>
 
             </section>
 
         </section>
 
         <!-- BUSINESS SPOTLIGHTS -->
+
         <section class="spotlights">
 
             <h2>Business Spotlights</h2>
 
-            <!-- BUSINESS 1 -->
-            <section class="business-card">
-
-                <h2>ABC Ventures</h2>
-
-                <img
-                    src="images/business1.webp"
-                    alt="ABC Ventures logo"
-                    width="150"
-                    height="150"
-                    loading="lazy"
-                >
-
-                <p>Business Consulting Services</p>
-
-                <p>Email: abcventures@gmail.com</p>
-
-                <p>Phone: +234 800 123 4567</p>
-
-                <a
-                    href="https://example.com"
-                    aria-label="Visit ABC Ventures website"
-                >
-                    Visit Website
-                </a>
-
-            </section>
-
-            <!-- BUSINESS 2 -->
-            <section class="business-card">
-
-                <h2>Owerri Tech Hub</h2>
-
-                <img
-                    src="images/business2.webp"
-                    alt="Owerri Tech Hub logo"
-                    width="150"
-                    height="150"
-                    loading="lazy"
-                >
-
-                <p>Technology and Innovation</p>
-
-                <p>Email: info@owerritechhub.com</p>
-
-                <p>Phone: +234 800 765 4321</p>
-
-                <a
-                    href="https://example.com"
-                    aria-label="Visit Owerri Tech Hub website"
-                >
-                    Visit Website
-                </a>
-
-            </section>
-
-            <!-- BUSINESS 3 -->
-            <section class="business-card">
-
-                <h2>Imo Traders Ltd</h2>
-
-                <img
-                    src="images/business3.webp"
-                    alt="Imo Traders Limited logo"
-                    width="150"
-                    height="150"
-                    loading="lazy"
-                >
-
-                <p>Import and Export Services</p>
-
-                <p>Email: support@imotraders.com</p>
-
-                <p>Phone: +234 809 998 8776</p>
-
-                <a
-                    href="https://example.com"
-                    aria-label="Visit Imo Traders Limited website"
-                >
-                    Visit Website
-                </a>
-
-            </section>
+            <div id="spotlight-container"></div>
 
         </section>
 
     </main>
 
     <!-- FOOTER -->
+
     <footer>
 
         <div class="footer-left">
@@ -368,6 +340,10 @@
                 &copy;
                 <span id="currentyear"></span>
                 Owerri Chamber of Commerce
+            </p>
+
+            <p>
+                Chisomaga Chiwuikem Eke | WDD 231
             </p>
 
             <p id="lastModified"></p>
