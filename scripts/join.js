@@ -1,0 +1,43 @@
+const timestamp =
+    document.querySelector('#timestamp');
+
+if (timestamp) {
+
+    timestamp.value =
+        new Date().toISOString();
+
+}
+
+const membershipLinks =
+    document.querySelectorAll('.membership-card a');
+
+membershipLinks.forEach((link) => {
+
+    link.addEventListener('click', (event) => {
+
+        event.preventDefault();
+
+        const modalId =
+            link.getAttribute('href');
+
+        const modal =
+            document.querySelector(modalId);
+
+        modal.showModal();
+
+    });
+
+});
+
+const closeButtons =
+    document.querySelectorAll('.close-modal');
+
+closeButtons.forEach((button) => {
+
+    button.addEventListener('click', () => {
+
+        button.closest('dialog').close();
+
+    });
+
+});

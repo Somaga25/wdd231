@@ -88,4 +88,16 @@
         width: 48%;
     }
 
+        /* ---------- JOIN PAGE ---------- */
+
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+    .membership-cards {
+        position: sticky;
+        top: 1rem;
+    }
+
 }
