@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Discover | Owerri Chamber of Commerce
+    </title>
+
+    <meta
+        name="description"
+        content="Discover attractions, educational institutions, cultural centers, and places of interest in Owerri, Imo State."
+    >
+
+    <meta
+        name="author"
+        content="Chisomaga Chiwuikem Eke"
+    >
+
+    <!-- Open Graph -->
+
+    <meta
+        property="og:title"
+        content="Discover Owerri | Owerri Chamber of Commerce"
+    >
+
+    <meta
+        property="og:description"
+        content="Explore important landmarks, attractions, and institutions that make Owerri a vibrant destination for business and tourism."
+    >
+
+    <meta
+        property="og:image"
+        content="https://somaga25.github.io/wdd231/chamber/images/owerri-zoo.webp"
+    >
+
+    <meta
+        property="og:url"
+        content="https://somaga25.github.io/wdd231/chamber/discover.html"
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <!-- Favicon -->
+
+    <link
+        rel="icon"
+        href="images/favicon.ico"
+    >
+
+    <!-- Fonts -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="styles/normalize.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles/small.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles/larger.css"
+    >
+
+    <!-- Scripts -->
+
+    <script
+        src="scripts/navigation.js"
+        defer
+    ></script>
+
+    <script
+        src="scripts/date.js"
+        defer
+    ></script>
+
+    <script
+        type="module"
+        src="scripts/discover.js"
+    ></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="branding">
+
+            <img
+                src="images/logo.webp"
+                alt="Owerri Chamber of Commerce Logo"
+                width="60"
+                height="60"
+            >
+
+            <div>
+
+                <span class="site-name">
+                    Owerri Chamber of Commerce
+                </span>
+
+                <span class="site-purpose">
+                    Supporting businesses and economic growth in Owerri.
+                </span>
+
+            </div>
+
+        </div>
+
+        <button
+            id="menu"
+            type="button"
+            aria-label="Open Navigation Menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav aria-label="Primary Navigation">
+
+            <ul class="navigation">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="discover.html"
+                        class="active"
+                    >
+                        Discover
+                    </a>
+                </li>
+
+                <li>
+                    <a href="directory.html">
+                        Directory
+                    </a>
+                </li>
+
+                <li>
+                    <a href="join.html">
+                        Join
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>
+            Discover Owerri
+        </h1>
+
+        <section
+            class="visit-message-card"
+        >
+
+            <h2>
+                Visitor Information
+            </h2>
+
+            <p id="visit-message">
+                Loading...
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2 class="visually-hidden">
+                Places of Interest
+            </h2>
+
+            <div id="discover-cards">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-left">
+
+            <h2>
+                Contact Information
+            </h2>
+
+            <p>
+                Owerri Chamber of Commerce
+            </p>
+
+            <p>
+                Owerri, Imo State, Nigeria
+            </p>
+
+            <p>
+                info@owerrichamber.org
+            </p>
+
+            <p>
+                +234 803 770 1669
+            </p>
+
+        </div>
+
+        <div class="footer-right">
+
+            <h2>
+                Development Information
+            </h2>
+
+            <p>
+                &copy;
+                <span id="currentyear"></span>
+                Owerri Chamber of Commerce
+            </p>
+
+            <p>
+                Chisomaga Chiwuikem Eke | WDD 231
+            </p>
+
+            <p id="lastModified"></p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
