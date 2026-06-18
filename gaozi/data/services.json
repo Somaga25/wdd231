@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Campus Delivery",
+    "category": "Logistics",
+    "price": "₦1500",
+    "availability": "Available",
+    "description": "Fast and reliable package delivery within campuses.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 2,
+    "name": "Same-Day Delivery",
+    "category": "Logistics",
+    "price": "₦3000",
+    "availability": "Available",
+    "description": "Get packages delivered on the same day.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 3,
+    "name": "Document Pickup",
+    "category": "Logistics",
+    "price": "₦1000",
+    "availability": "Available",
+    "description": "Secure pickup and delivery of important documents.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 4,
+    "name": "Parcel Dispatch",
+    "category": "Logistics",
+    "price": "₦2500",
+    "availability": "Available",
+    "description": "Convenient parcel dispatch service for individuals.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 5,
+    "name": "Intercity Delivery",
+    "category": "Logistics",
+    "price": "₦5000",
+    "availability": "Available",
+    "description": "Reliable package transportation between cities.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 6,
+    "name": "Grocery Shopping",
+    "category": "Shopping",
+    "price": "₦2000",
+    "availability": "Available",
+    "description": "Personal shoppers purchase and deliver groceries.",
+    "image": "shopping.webp"
+  },
+  {
+    "id": 7,
+    "name": "Pharmacy Pickup",
+    "category": "Shopping",
+    "price": "₦1500",
+    "availability": "Available",
+    "description": "Pickup and delivery of pharmacy products.",
+    "image": "shopping.webp"
+  },
+  {
+    "id": 8,
+    "name": "Market Shopping",
+    "category": "Shopping",
+    "price": "₦2500",
+    "availability": "Available",
+    "description": "Shopping assistance from local markets.",
+    "image": "shopping.webp"
+  },
+  {
+    "id": 9,
+    "name": "Mall Shopping",
+    "category": "Shopping",
+    "price": "₦3000",
+    "availability": "Available",
+    "description": "Purchase and delivery of items from shopping malls.",
+    "image": "shopping.webp"
+  },
+  {
+    "id": 10,
+    "name": "Personal Shopper",
+    "category": "Shopping",
+    "price": "₦3500",
+    "availability": "Available",
+    "description": "Dedicated shopper for personalized errands.",
+    "image": "shopping.webp"
+  },
+  {
+    "id": 11,
+    "name": "Merchant Fulfillment",
+    "category": "Business",
+    "price": "Custom",
+    "availability": "Available",
+    "description": "Order fulfillment solutions for merchants.",
+    "image": "business.webp"
+  },
+  {
+    "id": 12,
+    "name": "Inventory Transfer",
+    "category": "Business",
+    "price": "Custom",
+    "availability": "Available",
+    "description": "Movement of inventory between business locations.",
+    "image": "business.webp"
+  },
+  {
+    "id": 13,
+    "name": "SME Logistics",
+    "category": "Business",
+    "price": "Custom",
+    "availability": "Available",
+    "description": "Logistics solutions tailored for small businesses.",
+    "image": "business.webp"
+  },
+  {
+    "id": 14,
+    "name": "Fleet Support",
+    "category": "Business",
+    "price": "Custom",
+    "availability": "Available",
+    "description": "Fleet management and transportation support.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 15,
+    "name": "Bulk Delivery",
+    "category": "Business",
+    "price": "Custom",
+    "availability": "Available",
+    "description": "Large-scale delivery service for organizations.",
+    "image": "delivery.webp"
+  },
+  {
+    "id": 16,
+    "name": "CGPA Calculator",
+    "category": "Student Tools",
+    "price": "Free",
+    "availability": "Available",
+    "description": "Calculate and track cumulative grade point average.",
+    "image": "campus.webp"
+  },
+  {
+    "id": 17,
+    "name": "GPA Predictor",
+    "category": "Student Tools",
+    "price": "Free",
+    "availability": "Available",
+    "description": "Estimate future GPA performance.",
+    "image": "campus.webp"
+  },
+  {
+    "id": 18,
+    "name": "Study Planner",
+    "category": "Student Tools",
+    "price": "Free",
+    "availability": "Available",
+    "description": "Plan and organize study schedules effectively.",
+    "image": "campus.webp"
+  },
+  {
+    "id": 19,
+    "name": "Assignment Tracker",
+    "category": "Student Tools",
+    "price": "Free",
+    "availability": "Available",
+    "description": "Track assignments and project deadlines.",
+    "image": "campus.webp"
+  },
+  {
+    "id": 20,
+    "name": "Academic Progress Tracker",
+    "category": "Student Tools",
+    "price": "Free",
+    "availability": "Available",
+    "description": "Monitor academic performance over time.",
+    "image": "campus.webp"
+  }
+]

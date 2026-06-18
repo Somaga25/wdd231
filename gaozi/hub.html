@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="GAOZI Student Hub provides CGPA calculators, GPA predictors, study planners, and assignment tracking tools.">
+
+    <meta name="author"
+          content="Chisomaga Chiwuikem Eke">
+
+    <title>GAOZI | Student Hub</title>
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="styles/normalize.css">
+
+    <link rel="stylesheet"
+          href="styles/small.css">
+
+    <link rel="stylesheet"
+          href="styles/larger.css">
+
+    <script src="scripts/navigation.js"
+            defer></script>
+
+    <script type="module"
+            src="scripts/hub.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-container">
+
+        <a href="index.html">
+
+            <img src="images/gaozi-logo.webp"
+                 alt="GAOZI Logo"
+                 width="80"
+                 height="80">
+
+        </a>
+
+        <span class="site-name">
+            GAOZI
+        </span>
+
+    </div>
+
+    <button id="menu"
+            aria-label="Open Navigation Menu">
+        ☰
+    </button>
+
+    <nav>
+
+        <ul class="navigation">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="services.html">
+                    Services
+                </a>
+            </li>
+
+            <li>
+                <a href="hub.html"
+                   class="active">
+                    Hub
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="hub-hero">
+
+        <h1>
+            Student Productivity Hub
+        </h1>
+
+        <p>
+            Academic tools designed to help students
+            track performance, stay organized, and
+            achieve their educational goals.
+        </p>
+
+    </section>
+
+    <!-- CGPA Calculator -->
+
+    <section class="tool-section">
+
+        <h2>
+            CGPA Calculator
+        </h2>
+
+        <div class="calculator-form">
+
+            <label>
+                Course Unit
+
+                <input type="number"
+                       id="course-unit"
+                       min="1">
+            </label>
+
+            <label>
+                Grade
+
+                <select id="course-grade">
+
+                    <option value="5">A</option>
+                    <option value="4">B</option>
+                    <option value="3">C</option>
+                    <option value="2">D</option>
+                    <option value="1">E</option>
+                    <option value="0">F</option>
+
+                </select>
+
+            </label>
+
+            <button id="add-course">
+                Add Course
+            </button>
+
+        </div>
+
+        <div id="course-list">
+
+        </div>
+
+        <button id="calculate-cgpa">
+            Calculate CGPA
+        </button>
+
+        <h3 id="cgpa-result">
+            Current CGPA: 0.00
+        </h3>
+
+    </section>
+
+    <!-- GPA Predictor -->
+
+    <section class="tool-section">
+
+        <h2>
+            GPA Predictor
+        </h2>
+
+        <label>
+            Current CGPA
+
+            <input type="number"
+                   id="current-cgpa"
+                   step="0.01">
+        </label>
+
+        <label>
+            Expected GPA
+
+            <input type="number"
+                   id="expected-gpa"
+                   step="0.01">
+        </label>
+
+        <button id="predict-gpa">
+            Predict
+        </button>
+
+        <h3 id="prediction-result">
+
+        </h3>
+
+    </section>
+
+    <!-- Study Planner -->
+
+    <section class="tool-section">
+
+        <h2>
+            Study Planner
+        </h2>
+
+        <label>
+            Study Task
+
+            <input type="text"
+                   id="study-task">
+        </label>
+
+        <button id="add-study-task">
+            Add Task
+        </button>
+
+        <ul id="study-list">
+
+        </ul>
+
+    </section>
+
+    <!-- Assignment Tracker -->
+
+    <section class="tool-section">
+
+        <h2>
+            Assignment Tracker
+        </h2>
+
+        <label>
+            Assignment Name
+
+            <input type="text"
+                   id="assignment-name">
+        </label>
+
+        <label>
+            Due Date
+
+            <input type="date"
+                   id="assignment-date">
+        </label>
+
+        <button id="add-assignment">
+            Add Assignment
+        </button>
+
+        <ul id="assignment-list">
+
+        </ul>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        &copy; <span id="current-year"></span> GAOZI
+    </p>
+
+    <p>
+        WDD 231 Final Project
+    </p>
+
+    <a href="attributions.html">
+        Attributions
+    </a>
+
+    <br>
+
+    <a href="#">
+        Project Video
+    </a>
+
+</footer>
+
+</body>
+</html>

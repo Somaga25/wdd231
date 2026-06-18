@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /* Hero */
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    /* General Sections */
+
+    .about,
+    .featured-services,
+    .why-gaozi,
+    .testimonials,
+    .cta-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    /* Home Page Cards */
+
+    .service-cards,
+    .benefits,
+    .testimonial-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* Services Page Cards */
+
+    #services-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 2rem;
+    }
+
+    .calculator-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 1rem;
+    align-items: end;
+}
+
+.tool-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+}
