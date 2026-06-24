@@ -153,8 +153,9 @@ font-style: italic;
 }
 
 .cta-section {
-text-align: center;
-padding-bottom: 2rem;
+    text-align: center;
+    padding: 4rem 1rem;
+    clear: both;
 }
 
 #services-container {
