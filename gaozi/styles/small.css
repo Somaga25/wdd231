@@ -159,8 +159,9 @@ padding-bottom: 2rem;
 
 #services-container {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 1rem;
-    padding: 1rem;
+    width: 100%;
 }
 
 .service-card {
@@ -171,6 +172,8 @@ padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .service-card button {
@@ -180,6 +183,15 @@ padding-bottom: 2rem;
     padding: .5rem 1rem;
     cursor: pointer;
     margin-top: auto;
+}
+
+.service-card img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
 }
 
 dialog {
@@ -321,4 +333,19 @@ select {
 
 .tool-section button {
     margin-top: .75rem;
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
