@@ -134,7 +134,6 @@ color: white;
 .testimonial-cards {
 display: grid;
 gap: 1rem;
-align-items: stretch;
 }
 
 .card,
@@ -147,8 +146,20 @@ box-shadow: 0 2px 5px rgba(0,0,0,.1);
 height: 100%;
 }
 
+.testimonial {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    
+.testimonial img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: .5rem;
+
 blockquote {
-margin: 0;
+margin: 1rem 0 0;
 font-style: italic;
 }
 
@@ -192,7 +203,6 @@ font-style: italic;
     height: 200px;
     object-fit: cover;
     display: block;
-}
 }
 
 dialog {
