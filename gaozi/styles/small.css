@@ -70,7 +70,9 @@ background-color: rgba(255,255,255,.2);
 }
 
 .active {
-color: var(--accent-color);
+    color: var(--accent-color);
+    font-weight: 700;
+    border-bottom: 3px solid var(--accent-color);
 }
 
 .hero {
@@ -122,8 +124,9 @@ color: white;
 .featured-services,
 .why-gaozi,
 .testimonials,
-.cta-section {
-padding: 1rem;
+.cta-section,
+.about {
+    padding: 2rem 1rem;
 }
 
 .service-cards,
@@ -131,6 +134,7 @@ padding: 1rem;
 .testimonial-cards {
 display: grid;
 gap: 1rem;
+align-items: stretch;
 }
 
 .card,
@@ -140,6 +144,7 @@ background-color: white;
 padding: 1rem;
 border-radius: .5rem;
 box-shadow: 0 2px 5px rgba(0,0,0,.1);
+height: 100%;
 }
 
 blockquote {
@@ -152,7 +157,6 @@ text-align: center;
 padding-bottom: 2rem;
 }
 
-```css
 #services-container {
     display: grid;
     gap: 1rem;
@@ -164,6 +168,9 @@ padding-bottom: 2rem;
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .service-card button {
@@ -172,8 +179,9 @@ padding-bottom: 2rem;
     border: none;
     padding: .5rem 1rem;
     cursor: pointer;
+    margin-top: auto;
 }
-```
+
 dialog {
     width: 90%;
     max-width: 500px;
@@ -208,7 +216,6 @@ dialog::backdrop {
     margin-bottom: 1rem;
 }
 
-```css
 /* Request Form */
 
 .request-form-section {
@@ -257,7 +264,7 @@ select {
 .submit-btn:hover {
     opacity: .9;
 }
-```
+
 .delete-btn {
     margin-left: 1rem;
     padding: 0.4rem 0.8rem;
@@ -271,7 +278,7 @@ select {
 .delete-btn:hover {
     opacity: 0.9;
 }
-```css
+
 .confirmation-section {
     max-width: 800px;
     margin: 2rem auto;
@@ -284,7 +291,7 @@ select {
     border-radius: .5rem;
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
-```
+
 /* HUB PAGE */
 
 .hub-hero {
